@@ -1,0 +1,51 @@
+  348  git init first-git-repo-from-terminal
+  349  ls -la
+  350  ls -lrt
+  351  cd first-git-repo-from-terminal/
+  352  ls -la
+  353  ls -lrt
+  354  cd ..
+  355  cd first-git-repo-from-terminal/
+  356  echo "node_modules/" >> .gitignore
+  357  ls -lrt
+  358  ls -la
+  359  less .gitignore 
+  360  touch file1.txt
+  361  ls -lrt
+  362  ls -la
+  363  git status
+  364  git file1.txt
+  365  git --help
+  366  git --help rebase
+  367  git --help add
+  368  git status
+  369  git add file1.txt 
+  370  git status
+  371  git commit -m "Initial commit"
+  372  git status
+  373  git log
+  374  git branch feature-branch
+  375  git br fe
+  376  git checkout feature-branch 
+  377  touch new-few-file-feature-branch.txt
+  378  git status
+  379  git add new-few-file-feature-branch.txt 
+  380  git status
+  381  git commit -m "Add new file on feature branch"
+  382  git status 
+  383  git checkout master
+  384  git checkout feature-branch 
+  385  git checkout master
+  386  git add new-file-main-branch.txt
+  387  git status
+  388  touch new-file-main-branch.txt
+  389  git status
+  390  git add .
+  391  git status
+  392  git commit -m "add .gitignore and new-file-main-branch.txt"
+  393  git status
+  394  git log
+  395  git remote add origin https://github.com/Csaba79-coder/first-git-repo-from-terminal-webler-java-backend2.git
+  396  git push -u origin master
+  397  git push -u origin feature-branch 
+  398  history > git-command.txt
